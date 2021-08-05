@@ -1,0 +1,66 @@
+body {
+  margin : 0 ;
+  padding : 0 ;
+  background:url("batl2.jpg");
+  background-size : cover ;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#columnReg, #tableReg{
+    padding-right: 0px;
+}
+.txt {
+    float: right;
+    font-family: cursive;
+    color: darkblue;
+}
+
+.containerRegister{
+  right: 0;
+  padding: 16px;
+    padding-right: 0px;
+    width: 400px;
+  background-color: rgba(0,0,0,0.8);
+    display: block;
+    margin: 0 auto;
+    margin-top:20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lbl {
+    padding-right: 20px;
+    font-family: cursive;
+    font-size: 15;
+    color: blue;
+}
+
+#btn {
+  background-color: gray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+#registerInput{
+     width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+#title {
+    text-align: center;
+    font-family: monospace;
+    font-size: 40;
+    color: darkslateblue;
+}
+
+#regForm {
+    margin-left: 170;
+    margin-top: 70;
+}

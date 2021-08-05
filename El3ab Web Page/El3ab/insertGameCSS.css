@@ -1,0 +1,300 @@
+.siteHeader {
+    width: 110%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+     /*Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    
+    background: #8E0E00;  /* fallback for old browsers */
+    background: linear-gradient(to left, #1F1C18, #8E0F00); 
+    background: linear-gradient(to left, #1F1C18, #8E0E00);
+    
+
+    
+}
+
+#loginEmail, #loginPassword{
+    
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+#loginBtn {
+  background-color: gray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#loginBtn:hover {
+  opacity: 0.5;
+}
+.container {
+  right: 0;
+  padding: 16px;
+    width: 400px;
+  background-color: rgba(0,0,0,0.8);
+    display: block;
+    margin: 0 auto;
+    margin-top:20%;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 160px;
+    /*Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /*Stay at the top */
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin-top: 70px;
+    
+    background-color: #000000;
+    
+
+
+
+
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+    background-color: #8E0F00;
+}
+
+.menu a:select {
+    color: #FFFFFF;
+    background-color: #3C51B1;
+}
+
+.gameRow {
+    background-color: rgb(120,0,0, 0.85);
+    padding-bottom: 10px;
+}
+/*
+#login{
+    width: 100%;
+    height: 100%;
+    margin-left: 160px;
+    margin-top: 20%; 
+    
+    text-align: center;
+    vertical-align: middle;
+}*/
+
+
+
+.games {
+    width: 100%;
+    height: 100%;
+    margin-left: 160px;
+    margin-top: 70px; 
+    
+    
+  border-spacing: 0em .5em;
+    
+}
+.picture{
+    width: 150px;
+    height: 200px;
+}
+.GameIcon,
+.gameName,
+.discription,
+.category,
+.price,
+.gameBuy {
+    width: 16%;
+    font-family: cursive;
+    font-size: 18;
+    color: rgb(200,200,200);
+}
+
+td {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.buyButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    display:inline-block;
+     padding:0.3em 1.2em;
+     margin:0 0.3em 0.3em 0;
+     border-radius:2em;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#FFFFFF;
+     background-color:#000000;
+     text-align:center;
+     transition: all 0.2s;
+    }
+    a.button3:hover{
+     background-color:#084218;
+    }
+    @media all and (max-width:30em){
+     a.button3{
+      display:block;
+      margin:0.2em auto;
+     }
+}
+#registerInput{
+     width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.buyButton:hover {
+    background-color:#084218;
+}
+
+
+/*
+td {
+    padding-bottom: 5px; 
+    padding-top: 5px;
+    text-align: center;
+}
+*/
+/*
+._form {
+    margin-left: 43%;
+    margin-top: 100px;
+}
+*/
+
+.lbl {
+    font-size: 15pt;
+    font-family: cursive;
+    color: blue
+}
+
+.format {
+    float: right;
+}
+
+#box {
+    width: 172px;
+}
+
+#mg {
+    width: 95%;
+}
+
+#logo {
+    width: 230;
+    margin-top: -65;
+}
+
+#search {
+    position: fixed;
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    margin-left: 80%;
+    float: right;
+    margin-top: 20;
+}
+
+#output {
+    max-height: 100;
+    border: 1px solid gray;
+}
+
+#txtarea {
+    width: 172px;
+    height: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+#submitbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.txt {
+    float: right;
+}
+
+#file {
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#container{
+
+  right: 0;
+  padding: 16px;
+    width: 400px;
+  background-color: rgba(0,0,0,0.8);
+    display: block;
+    margin: 0 auto;
+    margin-top:10%;
+    text-align: center;
+    vertical-align: middle;
+  
+
+}
